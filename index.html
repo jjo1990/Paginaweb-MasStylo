@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Automotriz</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body style="background-color: #000;">
+
+    <!-- Skip link para accesibilidad -->
+    <a href="#main-content" class="skip-link">Saltar al contenido</a>
+
+    <header>
+        <nav>
+
+            <div class="nav-container">
+
+                <!-- LOGO -->
+                <a href="#" class="logo-link" aria-label="Mas Stylo - Ir al inicio">
+                    <img src="masstylo1(logo).png" alt="Mas Stylo" class="logo">
+                </a>
+
+                <!-- BOTON HAMBURGUESA -->
+                <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+                    ☰
+                </button>
+
+                <!-- MENU -->
+                <ul id="nav-menu">
+                    <li><a href="#quienes-somos">Quiénes somos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+    <section id="quienes-somos">
+        <div class="quienes-somos-contenido">
+            <div class="quienes-somos-texto animar">
+                <h2>¿Quiénes Somos?</h2>
+                <p>Somos un taller mecánico dedicado a brindar soluciones confiables para el mantenimiento y reparación de vehículos. Trabajamos con profesionalismo, herramientas de calidad y atención personalizada para garantizar la seguridad y el buen funcionamiento de tu automóvil.</p>
+            </div>
+            <div class="quienes-somos-imagen animar">
+                <img src="imagen2.jpg" alt="Taller Mas Stylo">
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2 class="animar">Nuestros Servicios</h2>
+
+        <div class="servicios-grid">
+
+            <div class="card animar">
+                <i class="fa-solid fa-car card-icon"></i>
+                <h3>Mecánica General</h3>
+                <p>Reparaciones completas y mantenimiento del vehículo.</p>
+            </div>
+
+            <div class="card animar">
+                <i class="fa-solid fa-laptop-medical card-icon"></i>
+                <h3>Diagnóstico</h3>
+                <p>Escaneo computarizado para detectar fallas.</p>
+            </div>
+
+            <div class="card animar">
+                <i class="fa-solid fa-gears card-icon"></i>
+                <h3>Distribución</h3>
+                <p>Cambio de correas, tensores y bomba de agua.</p>
+            </div>
+
+            <div class="card animar">
+                <i class="fa-solid fa-car-battery card-icon"></i>
+                <h3>Electricidad</h3>
+                <p>Reparación de arranque, alternador y batería.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contacto" class="seccion-contacto">
+
+        <div class="contenido-contacto">
+            <h2>Contacto</h2>
+            <p>Estamos aquí para ayudarte. Contáctanos para programar una cita.</p>
+
+            <div class="contenedor-contacto">
+
+                <div class="columna">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li>- Mecánica en general</li>
+                        <li>- Diagnóstico computarizado</li>
+                        <li>- Cambio de correas de distribución</li>
+                        <li>- Revisión y cambio de filtros</li>
+                        <li>- Diagnóstico y reparación eléctrica</li>
+                        <li>- Revisión de alternador y arranque</li>
+                    </ul>
+                </div>
+
+                <div class="columna">
+                    <h3>Horarios</h3>
+                    <p>Lunes a Viernes: 9:00 - 18:00</p>
+                </div>
+
+                <div class="columna">
+                    <h3>Contáctanos</h3>
+
+                    <p class="telefono">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <a href="https://wa.me/2613358432" target="_blank" rel="noopener noreferrer"> Tel: 2613358432</a>
+                    </p>
+
+                    <p class="direccion">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Direccion: Pellegrini 1438, Godoy Cruz, Mendoza.
+                    </p>
+
+                    <p>
+                        <a href="https://www.google.com/maps/place/Mas+Stylo/@-32.908720,-68.8612051,16.12z/"
+                            target="_blank" rel="noopener noreferrer" class="ubicacion">
+                            Ver ubicación en Google Maps
+                        </a>
+                    </p>
+                <div class="columna columna-mapa animar">
+                    <h3>Ubicación</h3>
+                    <div class="mapa-contenedor">
+                        <iframe
+                            src="https://maps.google.com/maps?q=Pellegrini+1438,+Godoy+Cruz,+Mendoza&output=embed"
+                            width="100%"
+                            height="220"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Ubicación de Mas Stylo">
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+
+    <footer style="background-color: #000; color: #fff;">
+        <p>&copy; 2023 Taller Automotriz</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/5492611234567?text=Hola%2C%20quisiera%20consultar%20sobre%20los%20servicios%20del%20taller."
+       class="whatsapp-float"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Chatear por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+
+</html>
